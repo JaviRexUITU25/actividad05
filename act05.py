@@ -1,3 +1,4 @@
+sales = []
 while True:
       print("--------MENU DE VENTAS--------\n"
             "1.Ingresar lista de valores\n"
@@ -13,10 +14,9 @@ while True:
             case "1":
                   n = int(input("Ingrese la lista de ventas: "))
                   for i in range(n):
-
-
-
-
-
-
-
+                        print("La(s) venta(s) se han agregado")
+                      sales.append(n)
+            case "2":
+                  print(sales)
+            case "3":
+                  print(f"la venta mas alta es: ")
